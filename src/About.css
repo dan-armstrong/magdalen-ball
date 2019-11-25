@@ -1,0 +1,30 @@
+.About {
+  padding: 0% 3%;
+  text-align: center;
+}
+
+.AboutParagraph {
+  margin: auto;
+  padding: 0;
+}
+
+.AboutParagraph + .AboutParagraph {
+  padding-top: 8rem;
+}
+
+.AboutImg {
+  width: 100%;
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.AboutData {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.AboutTitle {
+  font-family: 'Voga';
+  font-size: 3rem;
+}

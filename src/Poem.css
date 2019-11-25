@@ -1,0 +1,32 @@
+.Poem {
+  position: relative;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+.Stanza {
+  text-align: center;
+}
+
+.PoemBlocker {
+  height: 10rem;
+}
+
+.PoemFader {
+  height: 10rem;
+  position: sticky;
+}
+
+.PoemFader.Top {
+  background-image: linear-gradient(rgba(255, 254, 252, 1), rgba(255, 254, 252, 0));
+  top: 0;
+}
+
+.PoemFader.Bottom {
+  background-image: linear-gradient(rgba(255, 254, 252, 0), rgba(255, 254, 252, 1));
+  bottom: 0;
+}
+
+.Stanza + .Stanza {
+  padding-top: 3rem;
+}

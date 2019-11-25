@@ -1,0 +1,23 @@
+.Questions {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 5rem;
+}
+
+.Question {
+  font-family: 'Voga', serif;
+  font-size: 1.5rem;
+  margin: auto;
+}
+
+.QuestionContainer {
+  text-align: center;
+}
+
+.QuestionContainer + .QuestionContainer {
+  padding-top: 2rem;
+}
+
+.Answer {
+  margin: auto;
+}

@@ -1,0 +1,13 @@
+.PageContainer {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.Page {
+  padding: 5% 0%;
+  margin: 0;
+  width: 100%;
+  position: relative;
+}

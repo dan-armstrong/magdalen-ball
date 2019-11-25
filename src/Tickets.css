@@ -1,0 +1,34 @@
+.Tickets {
+  margin: 0;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Ticket {
+  text-align: center;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  transition: transform 0.2s;
+}
+
+.Ticket:hover {
+  transform: scale(1.02, 1.02);
+}
+
+.TicketTitle {
+  font-family: 'Voga', serif;
+  font-size: 2rem
+}
+
+.TicketContainer {
+  padding-top: 2rem;
+}
+
+.TicketPrice {
+  font-family: 'Voga', serif;
+  font-size: 2rem
+}

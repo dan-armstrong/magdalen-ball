@@ -1,0 +1,28 @@
+[data-aos="title-off"] {
+  opacity: 1;
+  transition-property: opacity, transform;
+}
+[data-aos="title-off"].aos-animate {
+  opacity: 0;
+  transform: translate(0%, -50%) scale(0.98, 0.98);
+}
+
+
+[data-aos="section-on"] {
+  opacity: 0;
+  transform: scale(0.98, 0.98);
+  transition-property: opacity, transform;
+}
+[data-aos="section-on"].aos-animate {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+[data-aos="section-off"] {
+  opacity: 1;
+  transition-property: opacity, transform;
+}
+[data-aos="section-off"].aos-animate {
+  opacity: 0;
+  transform: scale(0.98, 0.98);
+}

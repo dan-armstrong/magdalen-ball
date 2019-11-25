@@ -1,0 +1,31 @@
+.TeamRow {
+  margin: 0 auto;
+}
+
+.Member {
+  text-align: center;
+  padding: 0.75rem 0rem;
+  text-decoration: none;
+  color: rgb(33,25,12); /* 255,220,150 */
+  transition: transform 0.2s;
+}
+
+.Member:hover {
+  text-decoration: none;
+  color: rgb(33,25,12); /* 255,220,150 */
+  transform: scale(1.02, 1.02);
+}
+
+.MemberTitle {
+  font-family: 'Voga', serif;
+  font-size: 1.3rem
+}
+
+.MemberEmail {
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.Member:hover .MemberEmail {
+  opacity: 0.8;
+}
